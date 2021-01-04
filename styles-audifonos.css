@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color:black;
+    color: white;
+}
+#container{
+    overflow: hidden
+}
+#superior{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    width: 250px;
+    background: black;
+}
+#fotologo{
+    overflow: hidden;
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+}
+#titulologo{
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#menu{
+    float: right;
+    background:black ;
+    padding: 50px;
+    margin-right: 150px;
+}
+#opciones{
+    float:left;
+    
+}
+#opciones li{
+    float: right;
+    list-style: none;
+    border-bottom: 2px solid white;
+}
+#opciones li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none; 
+}
+#opciones li a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#menu2{
+    float: left;
+    background:  rgb(243, 207, 1);;
+    padding: 40px;
+    width: 100%;
+}
+#opciones2{
+    margin-left: 180px;
+    float:left;
+    list-style: none;
+}
+
+#opcionmenu2{
+    float: left;
+    list-style: inherit;
+    font-size: 30px;
+    padding: 10px;
+    background: #0a0a0a;
+    margin: 1px;
+    border-radius: 15px 0px 15px;
+}
+#menuopcion2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#menuopcion2{
+    color: white;
+    padding: 10px;
+    text-decoration: none; 
+}
+#titulo{
+    float: left;
+    font-size: 40px;
+    padding: 30px 55px;
+    width: 100%;
+    background:  rgb(15, 15, 15);
+    margin-bottom: 10px;
+}
+#caja{
+    float: left;
+    width: 400px;
+    margin: 4px;
+    border: 2px solid white;
+}
+#fotocelular1{
+    height: 525px;
+    padding: 10px;
+    width: 400px;
+}
+#fotocelular2{
+    width: 400px;
+    padding: 10px;
+    height: 525px;
+}
+#fotocelular3{
+    width: 400px;
+    padding: 10px;
+    height: 525px;
+}
+#fotocelular4{
+    width: 400px;
+    padding: 10px;
+    height: 525px;
+}
+#fotocelular5{
+    width: 400px;
+    padding: 10px;
+    height: 525px;
+}
+#fotocelular6{
+    width: 400px;
+    padding: 10px;
+    height: 525px;
+}
+#cuerpo2{
+    margin-left: 50px;
+}
+#cuerpo3{
+    margin-left: 50px;
+}
+h3{
+    font-family: cursive;
+    text-align: center;
+    margin: 8px;
+}
+h2{
+    text-align: center;
+    color: black;
+    background-color: #c7c7c7;
+}
+#boton{
+    background: rgb(243, 207, 1);
+    padding: 5px;
+    text-align: center;
+    font-family: fantasy;
+    margin: 5px;
+}
+#pie{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 110px;
+    background-color:  rgb(15, 15, 15);
+}
+#textopie{
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#pielogo{
+    width: 45px;
+}
+#boton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#pielogo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}

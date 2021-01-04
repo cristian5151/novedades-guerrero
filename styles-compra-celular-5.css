@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color:black;
+    color: white;
+}
+#container{
+    overflow: hidden
+}
+#superior{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    width: 250px;
+    background: black;
+}
+#fotologo{
+    overflow: hidden;
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+}
+#titulologo{
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#menu{
+    float: right;
+    background:black ;
+    padding: 50px;
+    margin-right: 150px;
+}
+#opciones{
+    float:left;
+    
+}
+#opciones li{
+    float: right;
+    list-style: none;
+    border-bottom: 2px solid white;
+}
+#opciones li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none; 
+}
+#opciones li a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#menu2{
+    float: left;
+    background:  rgb(243, 207, 1);;
+    padding: 40px;
+    width: 100%;
+}
+#opciones2{
+    margin-left: 180px;
+    float:left;
+    list-style: none;
+}
+
+#opcionmenu2{
+    float: left;
+    list-style: inherit;
+    font-size: 30px;
+    padding: 10px;
+    background: #0a0a0a;
+    margin: 1px;
+    border-radius: 15px 0px 15px;
+}
+#menuopcion2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#menuopcion2{
+    color: white;
+    padding: 10px;
+    text-decoration: none; 
+}
+#titulo{
+    float: left;
+    font-size: 40px;
+    padding: 30px 55px;
+    width: 100%;
+    background:  rgb(15, 15, 15);
+    margin-bottom: 10px;
+}
+ul,li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul#slider{
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+#cuerposlider{
+    float: left;
+}
+ul#slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+ul#slider li img{
+    width: 100%;
+    height: 500px;
+    object-fit:contain;
+}
+
+ul#slider li: first-child{
+    opacity: 1;
+}
+
+ul#slider li:target{
+    opacity: 1;
+}
+
+#menuslider{
+    text-align: center;
+    margin: 20px;
+}
+
+#menuslider li{
+    display: inline-block;
+    text-align: center;
+}
+#menuslider li a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    background-color: #c4c4c4;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 100%;
+}
+#menuslider li a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: aqua;
+}
+#pie{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 110px;
+    background-color:  rgb(15, 15, 15);
+}
+#textopie{
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#pielogo{
+    width: 45px;
+}
+#pielogo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#cuerpocomprar{
+    width: 40%;
+    height: 550px;
+    float: left;
+}
+#boton{
+    background: rgb(243, 207, 1);
+    padding: 5px;
+    text-align: center;
+    font-family: fantasy;
+    margin: 5px;
+}
+#boton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#titulocompra{
+    color:yellow;
+    margin-top: 290px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+#titulo2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#titulo3{
+    font-size: 20px;
+    color:red;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#boton{
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-right: 340px;
+}
+#titulo4{
+   color: aqua;
+    font-size: 15px;
+    margin: 5px;
+     margin-left: 30px;
+}
+#caja1{
+    margin-left: 30px;
+    float: left;
+    border-right: 2px solid white;
+}
+#caja2{
+    float: left;
+
+}
+#titulo5{
+    margin-right: 10px;
+    font-size: 15px;
+}
+#titulo6{
+    margin-top: 5px;
+    color: red;
+    font-size: 13px;
+}
+#titulo7{
+    margin-left: 10px;
+    font-size: 15px;
+}
+#titulo8{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: olive;
+    font-size: 13px;
+}
+#cuerpocaracteristicas{
+    margin: 15px;
+    float: left;
+    width: 770px;
+    background:  rgb(15, 15, 15);
+    
+}
+#titulocaracteristicas{
+    text-align: center;
+}
+#texto20{
+    margin-right: 120px;
+}
+#texto21{
+    margin-right: 230px;
+}
+#texto22{
+    margin-right: 190px;
+}
+#texto23{
+    margin-right: 190px;
+}
+#texto24{
+    margin-right: 238px;
+}
+#texto25{
+    margin-right: 285px;
+}
+#texto26{
+    margin-right: 230px;
+}
+#texto27{
+    margin-right: 178px;
+}
+#texto28{
+    margin-right: 150px;
+}
+#texto29{
+    margin-right: 120px;
+}
+#texto30{
+    margin-right: 105px;
+}
+#texto31{
+    margin-right: 240px;
+}
+#texto32{
+    margin-right: 135px;
+}
+
+h3{
+    margin: 10px;
+    border-bottom: 1px solid white;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

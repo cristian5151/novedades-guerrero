@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color:black;
+    color: white;
+}
+#container{
+    overflow: hidden
+}
+#superior{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    width: 250px;
+    background: black;
+}
+#fotologo{
+    overflow: hidden;
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+}
+#titulologo{
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#menu{
+    float: right;
+    background:black ;
+    padding: 50px;
+    margin-right: 150px;
+}
+#opciones{
+    float:left;
+    
+}
+#opciones li{
+    float: right;
+    list-style: none;
+    border-bottom: 2px solid white;
+}
+#opciones li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+#menu32{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+#opciones li a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+#cuerpo{
+    overflow: hidden;
+}
+#productos{
+    padding: 20px;
+    float: left;
+}
+#caja1{
+    text-align: center;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 3px;
+    border: 1px solid;
+    margin-left: 40px;
+}
+#efecto1{
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+#caja2{
+    text-align: center;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 3px;
+    border: 1px solid;
+}
+#efecto2{
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+#caja3{
+    text-align: center;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 3px;
+    border: 1px solid;
+}
+#efecto3{
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+#caja4{
+    text-align: center;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 3px;
+    border: 1px solid;
+    margin-right: 30px;
+}
+#efecto4{
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+#servicios{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#cajainformacion{
+    padding: 50px;
+    background-color: rgb(243, 207, 1);
+    float: left;
+}
+#informacion{
+    padding: 70px;
+    margin: 40px;
+    background-color: rgb(24, 24, 24); 
+}
+#tituloinformacion{
+    margin-top: 30px;
+    color:rgb(243, 207, 1) ;
+    text-align: center;
+    font-size: 30px;
+}
+#textoinformacion{
+    text-align: center;
+    padding: 0px;
+    
+}
+#cajacontactanos{
+    float: left; 
+    margin: 70px;
+    padding: 50px;
+    background-color: rgb(24, 24, 24);
+}
+#contactanos{
+    float: left;
+}
+#informacionizquierda{
+    float: left;
+}
+
+#titulocontactanos{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    color:rgb(243, 207, 1) ;
+}
+#correoscontactanos{
+    float: left;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#informacionderecha{
+    float: right;
+    background-color: rgb(24, 24, 24);
+    width: 600px;
+    margin-left: 100px;
+    
+}
+#nombre{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#direccion{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#miemail{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#numero{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#asunto{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#mensaje{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+#mensajeformulario{
+    float:right;
+    margin: 10px;
+    width: 500px;
+}
+#boton{
+    float:right;
+    padding: 10px;
+    width: 100px;
+    margin-right: 10px;
+}
+#googlemapa{
+    background-color:  rgb(15, 15, 15);
+}
+#mapa{
+    width: 95%;
+}
+#pie{
+    float: left;
+    width: 100%;
+    height: 110px;
+    background-color:  rgb(15, 15, 15);
+}
+#textopie{
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#pielogo{
+    width: 45px;
+}
+#servicios{
+    background:rgb(243, 207, 1) ;
+    color:rgb(15, 15, 15);
+}
+
+#servicios:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#pielogo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#boton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
